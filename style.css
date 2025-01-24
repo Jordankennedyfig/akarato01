@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-* {
+* { 
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -31,4 +32,488 @@ main {
 
 footer {
     
+}
+
+#cap {
+
+    background-color: #242323;
+    display: inline-flex;
+    margin: 20px;
+    position: relative;
+    
+    
+}
+
+#cap > h1 {
+
+    color:rgb(255, 255, 255);
+    font-size: 5em;
+    text-align: center;
+}
+
+#pcapa {
+
+    color: white;
+   
+}
+
+.capstreet{ 
+
+    border-radius: 10px 10px 10px 10px; 
+    float: right;
+    margin-top: 180px;
+    width: 400px;
+
+}
+
+#bio {
+    
+    color: rgb(255, 255, 255);
+    float: right;
+    position: relative;
+    margin: 5px;
+
+
+}
+
+.bio {    
+
+    font-size: 3em;
+    text-align: center;
+    float: left;
+}
+
+ #video {
+    position: relative;
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom:  56.5%;
+
+ }
+
+ div.quadrado { 
+
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+ }
+ 
+ div#quadrado01 { 
+    background-image: url(/img/rat500.jpg);   
+
+ }
+ div#quadrado02 {
+    background-image: url(/img/lost500.jpg);
+ }
+
+ div#quadrado03 {
+    background-image: url(/img/dg500.jpg);
+ }
+
+    
+div.video {
+
+    position: relative;
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom:  56.5%;
+
+}
+
+div.video > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+main {
+    min-width: 200px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+   
+}
+
+
+body {
+
+    background-image: linear-gradient(black, rgb(0, 0, 0));
+    
+}
+
+
+header {
+
+    min-height: 150px;
+    background-image: linear-gradient(to top, black, rgb(58, 58, 58));   
+    min-height: 150px;
+    padding: 30px;
+    background-repeat: no-repeat;    
+    min-height: 150px;
+   
+}
+
+header > h1 { 
+
+    text-align: center;
+    color: rgba(87, 87, 87, 0); 
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(78, 78, 78, 0.774);
+}
+
+.titulo {
+
+    color: rgba(255, 250, 250, 0.685);
+   
+}
+
+
+.navum { 
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #0000006e;
+    color: #020202;
+    padding: 15px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    
+}
+
+
+nav > a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+nav > a:hover {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius:  0px 50px;
+    font-weight: bold;
+}
+
+
+header h1 { 
+
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: 70px;
+    
+}
+
+.musicas {
+
+    font-weight: bold;
+    
+}
+
+li {
+
+    display: inline-table;
+    text-align: center;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+p {
+
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    color: white;
+}
+
+
+.pbio {
+
+    margin: 40px;
+    text-align: center;
+}
+
+mark {
+
+
+    background-color: rgb(83, 206, 236);
+    
+}
+
+.mainpixo{
+
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: #242323;
+    
+
+
+}
+
+div#bio {
+
+    float: left;
+   
+    
+}
+
+h1#pixo {
+
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+
+    font-family: "Anton", Arial, sans-serif;
+    font-weight: normal;
+}
+
+header h1 {
+
+    color: rgb(41, 41, 41);
+    font-family: "Anton", sans-serif;
+    font-weight: normal;
+    margin-top: 240px;
+    margin-left: 30px;     
+
+}
+
+header nav { 
+
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-align: right;
+    padding: 10px;           
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+header a:hover {
+
+    background-color: rgb(243, 243, 243);
+    color:  rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 0.2s;
+    box-shadow: 0px 0px 10px rgb(253, 253, 255);
+    text-decoration: underline;
+
+}
+
+main { 
+
+    background-color:#242323;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+
+}
+
+
+footer {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+footer > p {
+
+    color: white;
+}
+
+#footer {
+
+    background-color: #000000f1;
+}
+
+nav > h3 {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: normal;
+}
+
+
+img {
+
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin: 50px;
+    border-radius: 20px;
+} 
+
+.icon {
+
+    margin-left: 25px;
+    width: 25px;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 15px;
+}
+.icon:hover {
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.444);
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
+}
+
+.card {
+
+    display: inline-table;
+    text-align: center;
+    background-color: #242323;
+    width: 180px;
+    height: 200px;
+    border-radius: 2px 20px;
+    box-shadow: 4px 4px 12px #00000079;
+}
+.card img {
+
+    margin: auto;
+    width: 100%;
+    height: 130px;
+    border-radius: 0x 0px;
+
+}
+
+.card div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    height: 50%;
+
+}
+
+.card h1 {
+
+    text-align: center;    
+    font-size: 1.2rem;
+    color: #ffffffbb;
+    }
+
+.card h2 {
+
+    text-align: center; 
+    font-size: .9rem;
+    color: #ffffffaf;
+
+}
+
+.card button {
+    
+    text-align: center;
+    background-color: #000000da;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 100%;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0px ;
+}
+
+.card button:hover {
+
+    background-color: #000000ad;
+    cursor: pointer;
+}
+
+a.especial {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.dev {
+
+    font-style: italic; 
+    text-align: left;
+    color: rgb(255, 255, 255);
+    
+     
+}
+
+div > p {
+
+    font-weight: bold;
+    display: none;
+    text-align: center;
+}
+
+.dev:hover > p {
+
+    display: block;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    
+}
+
+#articlemusic {
+
+    background-color: #242323;
+    color: white;
+    border-radius: 10px 40px;
+    width: 700px;
+    /*pra colocar no o article no canto, o width: 500px;*/
+    margin: 10px 20px 10px 20px;
+    text-align: center; 
+    min-width: 300px;
+    max-width: 1000px;
+    
+
+    
+}
+
+article > p {
+
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+article > h1 {
+
+    color: rgb(255, 255, 255);
+    font-family: "Anton", Arial, sans-serif;
+    text-align: center;
 }
